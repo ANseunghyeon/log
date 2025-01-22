@@ -1,0 +1,12 @@
+Jan 22 07:51:02 web kernel: [   10.224746] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Jan 22 07:51:02 web kernel: [   10.227184] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Jan 22 07:51:09 web multipath: sda: failed to get sysfs uid: Invalid argument
+Jan 22 07:51:09 web multipath: sda: failed to get sgio uid: No such file or directory
+Jan 22 07:51:19 web multipath: sda: failed to get sysfs uid: Invalid argument
+Jan 22 07:51:19 web multipath: sda: failed to get sgio uid: No such file or directory
+Jan 22 07:51:29 web multipath: sda: failed to get sysfs uid: Invalid argument
+Jan 22 07:51:29 web multipath: sda: failed to get sgio uid: No such file or directory
+Jan 22 07:51:43 web sshd[1117]: error: Received disconnect from 10.10.10.1 port 8598:0:  [preauth]
+Jan 22 07:53:14 web sshd[1195]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1  user=root
+Jan 22 07:53:20 web sshd[1195]: error: Received disconnect from 10.10.10.1 port 8605:0:  [preauth]
+Jan 22 07:53:47 web su[1237]: (to root) test on pts/0

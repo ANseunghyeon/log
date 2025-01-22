@@ -1,0 +1,4 @@
+Jan 22 07:51:00 web kernel: [    8.486895] loop0: detected capacity change from 0 to 8
+Jan 22 07:51:02 web kernel: [   10.224746] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Jan 22 07:51:02 web kernel: [   10.227184] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Jan 22 07:51:02 web kernel: [   10.244955] pcnet32 0000:02:01.0 ens33: link up

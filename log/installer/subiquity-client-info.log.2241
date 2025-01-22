@@ -1,0 +1,7 @@
+2023-07-24 15:21:10,962 INFO subiquity:126 Starting Subiquity revision 4003
+2023-07-24 15:21:10,962 INFO subiquity:127 Arguments passed: ['/snap/subiquity/4003/usr/bin/subiquity']
+2023-07-24 15:21:16,045 INFO subiquity/Serial:107 start: starting UI
+2023-07-24 15:21:16,046 INFO subiquity/Serial:112 finish: (skipped) SUCCESS
+2023-07-24 15:21:16,046 INFO subiquity/Welcome:107 start: starting UI
+2023-07-24 06:21:43,575 INFO subiquity/Welcome:112 finish: completed SUCCESS
+2023-07-24 06:21:43,575 INFO subiquity/Refresh:107 start: starting UI

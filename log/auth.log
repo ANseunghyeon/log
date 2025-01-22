@@ -1,0 +1,26 @@
+Jan 22 07:51:16 web sshd[1116]: Server listening on :: port 22.
+Jan 22 07:51:43 web sshd[1117]: error: Received disconnect from 10.10.10.1 port 8598:0:  [preauth]
+Jan 22 07:51:43 web sshd[1117]: Disconnected from authenticating user root 10.10.10.1 port 8598 [preauth]
+Jan 22 07:52:04 web sshd[1152]: Accepted password for test from 10.10.10.1 port 8603 ssh2
+Jan 22 07:52:04 web sshd[1152]: pam_unix(sshd:session): session opened for user test(uid=1000) by (uid=0)
+Jan 22 07:52:04 web systemd-logind[798]: New session 1 of user test.
+Jan 22 07:52:04 web systemd: pam_unix(systemd-user:session): session opened for user test(uid=1000) by (uid=0)
+Jan 22 07:52:04 web sshd[1152]: pam_env(sshd:session): deprecated reading of user environment enabled
+Jan 22 07:52:42 web sshd[1152]: pam_unix(sshd:session): session closed for user test
+Jan 22 07:52:42 web systemd-logind[798]: Session 1 logged out. Waiting for processes to exit.
+Jan 22 07:52:42 web systemd-logind[798]: Removed session 1.
+Jan 22 07:53:14 web sshd[1195]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1  user=root
+Jan 22 07:53:16 web sshd[1195]: Failed password for root from 10.10.10.1 port 8605 ssh2
+Jan 22 07:53:20 web sshd[1195]: error: Received disconnect from 10.10.10.1 port 8605:0:  [preauth]
+Jan 22 07:53:20 web sshd[1195]: Disconnected from authenticating user root 10.10.10.1 port 8605 [preauth]
+Jan 22 07:53:42 web sshd[1197]: Accepted password for test from 10.10.10.1 port 8606 ssh2
+Jan 22 07:53:42 web sshd[1197]: pam_unix(sshd:session): session opened for user test(uid=1000) by (uid=0)
+Jan 22 07:53:42 web systemd-logind[798]: New session 3 of user test.
+Jan 22 07:53:42 web systemd: pam_unix(systemd-user:session): session opened for user test(uid=1000) by (uid=0)
+Jan 22 07:53:42 web sshd[1197]: pam_env(sshd:session): deprecated reading of user environment enabled
+Jan 22 07:53:47 web su[1237]: (to root) test on pts/0
+Jan 22 07:53:47 web su[1237]: pam_unix(su-l:session): session opened for user root(uid=0) by test(uid=1000)
+Jan 22 07:55:00 web sshd[1254]: Accepted password for test from 10.10.10.1 port 8613 ssh2
+Jan 22 07:55:00 web sshd[1254]: pam_unix(sshd:session): session opened for user test(uid=1000) by (uid=0)
+Jan 22 07:55:00 web systemd-logind[798]: New session 5 of user test.
+Jan 22 07:55:00 web sshd[1254]: pam_env(sshd:session): deprecated reading of user environment enabled

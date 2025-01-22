@@ -1,0 +1,49 @@
+2023-07-24 06:22:38,088 INFO subiquity:117 Starting Subiquity TUI revision 4709 of snap /snap/subiquity/4709
+2023-07-24 06:22:38,088 INFO subiquity:118 Arguments passed: ['/snap/subiquity/4709/usr/bin/subiquity']
+2023-07-24 06:22:39,468 INFO subiquity/Refresh:110 start: starting UI
+2023-07-24 06:22:39,468 INFO subiquity/Refresh:115 finish: (skipped) SUCCESS
+2023-07-24 06:22:39,468 INFO subiquity/Keyboard:110 start: starting UI
+2023-07-24 06:22:51,175 INFO subiquity/Keyboard:115 finish: completed SUCCESS
+2023-07-24 06:22:51,176 INFO subiquity/Source:110 start: starting UI
+2023-07-24 06:22:58,601 INFO subiquity/Source:115 finish: completed SUCCESS
+2023-07-24 06:22:58,601 INFO subiquity/Zdev:110 start: starting UI
+2023-07-24 06:22:58,605 INFO subiquity/Zdev:115 finish: (skipped) SUCCESS
+2023-07-24 06:22:58,605 INFO subiquity/Network:110 start: starting UI
+2023-07-24 06:22:58,624 INFO aiohttp.access:206  [24/Jul/2023:06:22:58 +0000] "POST /route_watch?has_default_route=true HTTP/1.1" 200 175 "-" "Python/3.10 aiohttp/3.8.1"
+2023-07-24 06:23:00,375 INFO aiohttp.access:206  [24/Jul/2023:06:23:00 +0000] "POST /route_watch?has_default_route=false HTTP/1.1" 200 175 "-" "Python/3.10 aiohttp/3.8.1"
+2023-07-24 06:23:00,377 INFO aiohttp.access:206  [24/Jul/2023:06:23:00 +0000] "POST /update_link?act=%22CHANGE%22 HTTP/1.1" 200 175 "-" "Python/3.10 aiohttp/3.8.1"
+2023-07-24 06:23:02,164 INFO aiohttp.access:206  [24/Jul/2023:06:23:02 +0000] "POST /update_link?act=%22CHANGE%22 HTTP/1.1" 200 175 "-" "Python/3.10 aiohttp/3.8.1"
+2023-07-24 06:23:02,165 INFO aiohttp.access:206  [24/Jul/2023:06:23:02 +0000] "POST /route_watch?has_default_route=true HTTP/1.1" 200 175 "-" "Python/3.10 aiohttp/3.8.1"
+2023-07-24 06:23:22,351 INFO aiohttp.access:206  [24/Jul/2023:06:23:22 +0000] "POST /update_link?act=%22CHANGE%22 HTTP/1.1" 200 175 "-" "Python/3.10 aiohttp/3.8.1"
+2023-07-24 06:23:22,353 INFO aiohttp.access:206  [24/Jul/2023:06:23:22 +0000] "POST /apply_starting HTTP/1.1" 200 175 "-" "Python/3.10 aiohttp/3.8.1"
+2023-07-24 06:23:23,179 INFO aiohttp.access:206  [24/Jul/2023:06:23:23 +0000] "POST /route_watch?has_default_route=false HTTP/1.1" 200 175 "-" "Python/3.10 aiohttp/3.8.1"
+2023-07-24 06:23:23,184 INFO aiohttp.access:206  [24/Jul/2023:06:23:23 +0000] "POST /update_link?act=%22CHANGE%22 HTTP/1.1" 200 175 "-" "Python/3.10 aiohttp/3.8.1"
+2023-07-24 06:23:23,898 INFO aiohttp.access:206  [24/Jul/2023:06:23:23 +0000] "POST /apply_stopping HTTP/1.1" 200 175 "-" "Python/3.10 aiohttp/3.8.1"
+2023-07-24 06:23:52,763 INFO aiohttp.access:206  [24/Jul/2023:06:23:52 +0000] "POST /update_link?act=%22CHANGE%22 HTTP/1.1" 200 175 "-" "Python/3.10 aiohttp/3.8.1"
+2023-07-24 06:23:52,765 INFO aiohttp.access:206  [24/Jul/2023:06:23:52 +0000] "POST /update_link?act=%22CHANGE%22 HTTP/1.1" 200 175 "-" "Python/3.10 aiohttp/3.8.1"
+2023-07-24 06:23:52,766 INFO aiohttp.access:206  [24/Jul/2023:06:23:52 +0000] "POST /apply_starting HTTP/1.1" 200 175 "-" "Python/3.10 aiohttp/3.8.1"
+2023-07-24 06:23:53,755 INFO aiohttp.access:206  [24/Jul/2023:06:23:53 +0000] "POST /apply_stopping HTTP/1.1" 200 175 "-" "Python/3.10 aiohttp/3.8.1"
+2023-07-24 06:23:54,651 INFO aiohttp.access:206  [24/Jul/2023:06:23:54 +0000] "POST /update_link?act=%22CHANGE%22 HTTP/1.1" 200 175 "-" "Python/3.10 aiohttp/3.8.1"
+2023-07-24 06:23:54,652 INFO aiohttp.access:206  [24/Jul/2023:06:23:54 +0000] "POST /route_watch?has_default_route=true HTTP/1.1" 200 175 "-" "Python/3.10 aiohttp/3.8.1"
+2023-07-24 06:23:56,762 INFO subiquity/Network:115 finish: completed SUCCESS
+2023-07-24 06:23:56,762 INFO subiquity/Proxy:110 start: starting UI
+2023-07-24 06:23:58,261 INFO subiquity/Proxy:115 finish: completed SUCCESS
+2023-07-24 06:23:58,262 INFO subiquity/Mirror:110 start: starting UI
+2023-07-24 06:24:29,772 INFO subiquity/Mirror:115 finish: completed SUCCESS
+2023-07-24 06:24:29,772 INFO subiquity/Refresh:110 start: starting UI
+2023-07-24 06:24:29,772 INFO subiquity/Refresh:115 finish: (skipped) SUCCESS
+2023-07-24 06:24:29,773 INFO subiquity/Filesystem:110 start: starting UI
+2023-07-24 06:24:37,148 INFO subiquity.client.controllers.filesystem:286 Resetting Filesystem model
+2023-07-24 06:25:12,784 INFO subiquity/Filesystem:115 finish: completed SUCCESS
+2023-07-24 06:25:12,784 INFO subiquity/Identity:110 start: starting UI
+2023-07-24 06:25:22,195 INFO subiquity/Identity:110 start: starting UI
+2023-07-24 06:25:48,991 INFO subiquity/Identity:115 finish: completed SUCCESS
+2023-07-24 06:25:48,991 INFO subiquity/UbuntuPro:110 start: starting UI
+2023-07-24 06:25:48,993 INFO subiquity/UbuntuPro:115 finish: (skipped) SUCCESS
+2023-07-24 06:25:48,993 INFO subiquity/SSH:110 start: starting UI
+2023-07-24 06:25:52,757 INFO subiquity/SSH:115 finish: completed SUCCESS
+2023-07-24 06:25:52,757 INFO subiquity/Drivers:110 start: starting UI
+2023-07-24 06:25:52,760 INFO subiquity/Drivers:115 finish: (skipped) SUCCESS
+2023-07-24 06:25:52,760 INFO subiquity/SnapList:110 start: starting UI
+2023-07-24 06:25:57,042 INFO subiquity/SnapList:115 finish: completed SUCCESS
+2023-07-24 06:25:57,042 INFO subiquity/Progress:110 start: starting UI

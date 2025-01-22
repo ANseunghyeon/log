@@ -1,0 +1,40 @@
+2023-07-24 15:21:10,962 INFO subiquity:126 Starting Subiquity revision 4003
+2023-07-24 15:21:10,962 INFO subiquity:127 Arguments passed: ['/snap/subiquity/4003/usr/bin/subiquity']
+2023-07-24 15:21:10,963 DEBUG subiquitycore.screen:135 KDGKBTYPE returned b'\x02', is_linux_tty True
+2023-07-24 15:21:10,963 DEBUG asyncio:59 Using selector: EpollSelector
+2023-07-24 15:21:15,995 DEBUG subiquitycore.core:120 starting controllers
+2023-07-24 15:21:15,995 DEBUG subiquitycore.core:123 controllers started
+2023-07-24 15:21:16,001 DEBUG subiquity/Progress/_wait_status:107 start: 
+2023-07-24 15:21:16,045 INFO subiquity/Serial:107 start: starting UI
+2023-07-24 15:21:16,046 INFO subiquity/Serial:112 finish: (skipped) SUCCESS
+2023-07-24 15:21:16,046 DEBUG subiquitycore.tui:233 skipping screen Serial
+2023-07-24 15:21:16,046 INFO subiquity/Welcome:107 start: starting UI
+2023-07-24 15:21:16,050 DEBUG subiquity.ui.views.welcome:81 ('ast_ES.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,050 DEBUG subiquity.ui.views.welcome:81 ('id_ID.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,051 DEBUG subiquity.ui.views.welcome:81 ('ca_ES.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,051 DEBUG subiquity.ui.views.welcome:81 ('de_DE.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,051 DEBUG subiquity.ui.views.welcome:81 ('en_US.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,051 DEBUG subiquity.ui.views.welcome:81 ('en_GB.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,051 DEBUG subiquity.ui.views.welcome:81 ('es_ES.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,051 DEBUG subiquity.ui.views.welcome:81 ('fr_FR.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,052 DEBUG subiquity.ui.views.welcome:81 ('gl_ES.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,052 DEBUG subiquity.ui.views.welcome:81 ('hr_HR.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,052 DEBUG subiquity.ui.views.welcome:81 ('lv_LV.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,052 DEBUG subiquity.ui.views.welcome:81 ('lt_LT.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,052 DEBUG subiquity.ui.views.welcome:81 ('hu_HU.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,053 DEBUG subiquity.ui.views.welcome:81 ('nl_NL.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,053 DEBUG subiquity.ui.views.welcome:81 ('nb', 'en_US.UTF-8')
+2023-07-24 15:21:16,053 DEBUG subiquity.ui.views.welcome:81 ('pl_PL.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,053 DEBUG subiquity.ui.views.welcome:81 ('pt_PT.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,054 DEBUG subiquity.ui.views.welcome:81 ('fi_FI.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,054 DEBUG subiquity.ui.views.welcome:81 ('sv_SE.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,054 DEBUG subiquity.ui.views.welcome:81 ('cs_CZ.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,054 DEBUG subiquity.ui.views.welcome:81 ('el_GR.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,055 DEBUG subiquity.ui.views.welcome:81 ('be_BY.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,055 DEBUG subiquity.ui.views.welcome:81 ('ru_RU.UTF-8', 'en_US.UTF-8')
+2023-07-24 15:21:16,055 DEBUG subiquity.ui.views.welcome:81 ('sr_RS', 'en_US.UTF-8')
+2023-07-24 15:21:16,055 DEBUG subiquity.ui.views.welcome:81 ('uk_UA.UTF-8', 'en_US.UTF-8')
+2023-07-24 06:21:43,568 DEBUG subiquity.ui.views.welcome:102 WelcomeView ('en_US.UTF-8', 'English')
+2023-07-24 06:21:43,568 DEBUG subiquity.client.controllers.welcome:49 WelcomeController.done en_US.UTF-8 next_screen
+2023-07-24 06:21:43,575 INFO subiquity/Welcome:112 finish: completed SUCCESS
+2023-07-24 06:21:43,575 INFO subiquity/Refresh:107 start: starting UI

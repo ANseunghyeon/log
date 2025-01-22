@@ -1,0 +1,9 @@
+ERROR: apport (pid 4491) Sat Aug 26 10:58:46 2023: Unhandled exception:
+Traceback (most recent call last):
+  File "/usr/share/apport/apport", line 795, in main
+    get_pid_info(pid)
+  File "/usr/share/apport/apport", line 97, in get_pid_info
+    proc_pid_fd = os.open(
+FileNotFoundError: [Errno 2] No such file or directory: '/proc/2837'
+ERROR: apport (pid 4491) Sat Aug 26 10:58:46 2023: pid: 4491, uid: 0, gid: 0, euid: 0, egid: 0
+ERROR: apport (pid 4491) Sat Aug 26 10:58:46 2023: environment: environ({'LC_CTYPE': 'C.UTF-8'})

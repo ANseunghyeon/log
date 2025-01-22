@@ -1,0 +1,166 @@
+Sep 10 04:02:38 web systemd-logind[753]: New seat seat0.
+Sep 10 04:02:38 web systemd-logind[753]: Watching system buttons on /dev/input/event0 (Power Button)
+Sep 10 04:02:38 web systemd-logind[753]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Sep 10 04:03:12 web sshd[1084]: Server listening on :: port 22.
+Sep 10 04:03:20 web sshd[1085]: Accepted password for test from 10.10.10.19 port 49723 ssh2
+Sep 10 04:03:20 web sshd[1085]: pam_unix(sshd:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 04:03:20 web systemd-logind[753]: New session 1 of user test.
+Sep 10 04:03:20 web systemd: pam_unix(systemd-user:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 04:03:20 web sshd[1085]: pam_env(sshd:session): deprecated reading of user environment enabled
+Sep 10 04:03:24 web su[1125]: (to root) test on pts/0
+Sep 10 04:03:24 web su[1125]: pam_unix(su-l:session): session opened for user root(uid=0) by test(uid=1000)
+Sep 10 04:05:09 web su[1125]: pam_unix(su-l:session): session closed for user root
+Sep 10 04:05:10 web sshd[1085]: pam_unix(sshd:session): session closed for user test
+Sep 10 04:05:10 web systemd-logind[753]: Session 1 logged out. Waiting for processes to exit.
+Sep 10 04:05:10 web systemd-logind[753]: Removed session 1.
+Sep 10 04:07:02 web sshd[1212]: Accepted password for test from 10.10.10.1 port 56675 ssh2
+Sep 10 04:07:02 web sshd[1212]: pam_unix(sshd:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 04:07:02 web systemd-logind[753]: New session 3 of user test.
+Sep 10 04:07:02 web systemd: pam_unix(systemd-user:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 04:07:02 web sshd[1212]: pam_env(sshd:session): deprecated reading of user environment enabled
+Sep 10 04:07:07 web su[1252]: (to root) test on pts/0
+Sep 10 04:07:07 web su[1252]: pam_unix(su-l:session): session opened for user root(uid=0) by test(uid=1000)
+Sep 10 04:07:30 web sshd[1266]: Accepted password for test from 10.10.10.1 port 56750 ssh2
+Sep 10 04:07:30 web sshd[1266]: pam_unix(sshd:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 04:07:30 web systemd-logind[753]: New session 5 of user test.
+Sep 10 04:07:30 web sshd[1266]: pam_env(sshd:session): deprecated reading of user environment enabled
+Sep 10 04:45:22 web sshd[1266]: pam_unix(sshd:session): session closed for user test
+Sep 10 04:45:22 web systemd-logind[753]: Session 5 logged out. Waiting for processes to exit.
+Sep 10 04:45:22 web systemd-logind[753]: Removed session 5.
+Sep 10 05:35:11 web su[1252]: pam_unix(su-l:session): session closed for user root
+Sep 10 05:35:13 web sshd[1212]: pam_unix(sshd:session): session closed for user test
+Sep 10 05:35:13 web systemd-logind[753]: Session 3 logged out. Waiting for processes to exit.
+Sep 10 05:35:13 web systemd-logind[753]: Removed session 3.
+Sep 10 06:16:11 web systemd-logind[762]: New seat seat0.
+Sep 10 06:16:11 web systemd-logind[762]: Watching system buttons on /dev/input/event0 (Power Button)
+Sep 10 06:16:11 web systemd-logind[762]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Sep 10 06:25:30 web sshd[1086]: Server listening on :: port 22.
+Sep 10 06:25:36 web sshd[1087]: Accepted password for test from 10.10.10.1 port 60574 ssh2
+Sep 10 06:25:36 web sshd[1087]: pam_unix(sshd:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 06:25:36 web systemd-logind[762]: New session 1 of user test.
+Sep 10 06:25:36 web systemd: pam_unix(systemd-user:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 06:25:36 web sshd[1087]: pam_env(sshd:session): deprecated reading of user environment enabled
+Sep 10 06:25:42 web su[1127]: (to root) test on pts/0
+Sep 10 06:25:42 web su[1127]: pam_unix(su-l:session): session opened for user root(uid=0) by test(uid=1000)
+Sep 10 06:26:11 web sshd[1142]: Accepted password for test from 10.10.10.1 port 60576 ssh2
+Sep 10 06:26:11 web sshd[1142]: pam_unix(sshd:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 06:26:11 web systemd-logind[762]: New session 3 of user test.
+Sep 10 06:26:11 web sshd[1142]: pam_env(sshd:session): deprecated reading of user environment enabled
+Sep 10 06:53:51 web su[1127]: pam_unix(su-l:session): session closed for user root
+Sep 10 06:53:59 web sshd[1087]: pam_unix(sshd:session): session closed for user test
+Sep 10 06:53:59 web systemd-logind[762]: Session 1 logged out. Waiting for processes to exit.
+Sep 10 06:53:59 web systemd-logind[762]: Removed session 1.
+Sep 10 06:54:11 web sshd[1142]: pam_unix(sshd:session): session closed for user test
+Sep 10 06:54:11 web systemd-logind[762]: Session 3 logged out. Waiting for processes to exit.
+Sep 10 06:54:11 web systemd-logind[762]: Removed session 3.
+Sep 10 07:46:16 web sshd[2083]: fatal: Timeout before authentication for 10.10.10.19 port 49944
+Sep 10 07:48:04 web sshd[2085]: Accepted password for test from 10.10.10.19 port 49973 ssh2
+Sep 10 07:48:04 web sshd[2085]: pam_unix(sshd:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 07:48:04 web systemd-logind[762]: New session 4 of user test.
+Sep 10 07:48:04 web systemd: pam_unix(systemd-user:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 07:48:04 web sshd[2085]: pam_env(sshd:session): deprecated reading of user environment enabled
+Sep 10 07:48:08 web su[2132]: (to root) test on pts/0
+Sep 10 07:48:08 web su[2132]: pam_unix(su-l:session): session opened for user root(uid=0) by test(uid=1000)
+Sep 10 07:56:37 web systemd-logind[762]: System is rebooting.
+Sep 10 07:56:37 web su[2132]: pam_unix(su-l:session): session closed for user root
+Sep 10 07:56:37 web sshd[2085]: pam_unix(sshd:session): session closed for user test
+Sep 10 07:56:59 web systemd-logind[746]: New seat seat0.
+Sep 10 07:56:59 web systemd-logind[746]: Watching system buttons on /dev/input/event0 (Power Button)
+Sep 10 07:56:59 web systemd-logind[746]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Sep 10 07:57:23 web sshd[1059]: Server listening on :: port 22.
+Sep 10 07:57:29 web sshd[1060]: Accepted password for test from 10.10.10.19 port 50050 ssh2
+Sep 10 07:57:29 web sshd[1060]: pam_unix(sshd:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 07:57:29 web systemd-logind[746]: New session 1 of user test.
+Sep 10 07:57:29 web systemd: pam_unix(systemd-user:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 07:57:29 web sshd[1060]: pam_env(sshd:session): deprecated reading of user environment enabled
+Sep 10 07:57:38 web su: pam_unix(su-l:auth): authentication failure; logname=test uid=1000 euid=0 tty=/dev/pts/0 ruser=test rhost=  user=root
+Sep 10 07:57:40 web su[1110]: FAILED SU (to root) test on pts/0
+Sep 10 07:57:44 web su[1113]: (to root) test on pts/0
+Sep 10 07:57:44 web su[1113]: pam_unix(su-l:session): session opened for user root(uid=0) by test(uid=1000)
+Sep 10 10:01:59 web su[1113]: pam_unix(su-l:session): session closed for user root
+Sep 10 10:02:01 web sshd[1060]: pam_unix(sshd:session): session closed for user test
+Sep 10 10:02:01 web systemd-logind[746]: Session 1 logged out. Waiting for processes to exit.
+Sep 10 10:02:01 web systemd-logind[746]: Removed session 1.
+Sep 10 10:19:31 web sshd[3206]: Accepted password for test from 10.10.10.1 port 63959 ssh2
+Sep 10 10:19:31 web sshd[3206]: pam_unix(sshd:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 10:19:31 web systemd-logind[746]: New session 3 of user test.
+Sep 10 10:19:31 web systemd: pam_unix(systemd-user:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 10:19:31 web sshd[3206]: pam_env(sshd:session): deprecated reading of user environment enabled
+Sep 10 10:19:37 web su[3247]: (to root) test on pts/0
+Sep 10 10:19:37 web su[3247]: pam_unix(su-l:session): session opened for user root(uid=0) by test(uid=1000)
+Sep 10 10:20:40 web sshd[3270]: Accepted password for test from 10.10.10.1 port 63961 ssh2
+Sep 10 10:20:40 web sshd[3270]: pam_unix(sshd:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 10:20:40 web systemd-logind[746]: New session 5 of user test.
+Sep 10 10:20:40 web sshd[3270]: pam_env(sshd:session): deprecated reading of user environment enabled
+Sep 10 10:37:35 web systemd-logind[746]: System is rebooting.
+Sep 10 10:37:35 web su[3247]: pam_unix(su-l:session): session closed for user root
+Sep 10 10:37:35 web sshd[3206]: pam_unix(sshd:session): session closed for user test
+Sep 10 10:37:35 web sshd[3270]: pam_unix(sshd:session): session closed for user test
+Sep 10 10:38:17 web systemd-logind[777]: New seat seat0.
+Sep 10 10:38:17 web systemd-logind[777]: Watching system buttons on /dev/input/event0 (Power Button)
+Sep 10 10:38:17 web systemd-logind[777]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Sep 10 10:40:57 web sshd[1127]: Server listening on :: port 22.
+Sep 10 10:41:05 web sshd[1128]: Accepted password for test from 10.10.10.1 port 64023 ssh2
+Sep 10 10:41:05 web sshd[1128]: pam_unix(sshd:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 10:41:05 web systemd-logind[777]: New session 1 of user test.
+Sep 10 10:41:05 web systemd: pam_unix(systemd-user:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 10:41:05 web sshd[1128]: pam_env(sshd:session): deprecated reading of user environment enabled
+Sep 10 10:41:10 web su[1168]: (to root) test on pts/0
+Sep 10 10:41:10 web su[1168]: pam_unix(su-l:session): session opened for user root(uid=0) by test(uid=1000)
+Sep 10 10:42:23 web systemd-logind[777]: System is rebooting.
+Sep 10 10:42:23 web su[1168]: pam_unix(su-l:session): session closed for user root
+Sep 10 10:42:23 web sshd[1128]: pam_unix(sshd:session): session closed for user test
+Sep 10 10:42:40 web systemd-logind[758]: New seat seat0.
+Sep 10 10:42:40 web systemd-logind[758]: Watching system buttons on /dev/input/event0 (Power Button)
+Sep 10 10:42:40 web systemd-logind[758]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Sep 10 10:44:53 web sshd[1075]: Server listening on :: port 22.
+Sep 10 10:45:00 web sshd[1076]: Accepted password for test from 10.10.10.1 port 64035 ssh2
+Sep 10 10:45:00 web sshd[1076]: pam_unix(sshd:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 10:45:00 web systemd-logind[758]: New session 1 of user test.
+Sep 10 10:45:00 web systemd: pam_unix(systemd-user:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 10:45:00 web sshd[1076]: pam_env(sshd:session): deprecated reading of user environment enabled
+Sep 10 10:45:03 web su: pam_unix(su-l:auth): authentication failure; logname=test uid=1000 euid=0 tty=/dev/pts/0 ruser=test rhost=  user=root
+Sep 10 10:45:05 web su[1116]: FAILED SU (to root) test on pts/0
+Sep 10 10:45:11 web su[1117]: (to root) test on pts/0
+Sep 10 10:45:11 web su[1117]: pam_unix(su-l:session): session opened for user root(uid=0) by test(uid=1000)
+Sep 10 10:49:41 web passwd[1131]: pam_unix(passwd:chauthtok): password changed for test
+Sep 10 10:49:43 web su[1117]: pam_unix(su-l:session): session closed for user root
+Sep 10 10:49:53 web su[1132]: (to root) test on pts/0
+Sep 10 10:49:53 web su[1132]: pam_unix(su-l:session): session opened for user root(uid=0) by test(uid=1000)
+Sep 10 10:50:00 web systemd-logind[758]: System is rebooting.
+Sep 10 10:50:00 web su[1132]: pam_unix(su-l:session): session closed for user root
+Sep 10 10:50:00 web sshd[1076]: pam_unix(sshd:session): session closed for user test
+Sep 10 10:50:18 web systemd-logind[754]: New seat seat0.
+Sep 10 10:50:18 web systemd-logind[754]: Watching system buttons on /dev/input/event0 (Power Button)
+Sep 10 10:50:18 web systemd-logind[754]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Sep 10 10:52:17 web sshd[1075]: Server listening on :: port 22.
+Sep 10 10:52:24 web sshd[1076]: Accepted password for test from 10.10.10.1 port 64065 ssh2
+Sep 10 10:52:24 web sshd[1076]: pam_unix(sshd:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 10:52:24 web systemd-logind[754]: New session 1 of user test.
+Sep 10 10:52:24 web systemd: pam_unix(systemd-user:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 10:52:25 web sshd[1076]: pam_env(sshd:session): deprecated reading of user environment enabled
+Sep 10 10:52:59 web su[1120]: (to root) test on pts/0
+Sep 10 10:52:59 web su[1120]: pam_unix(su-l:session): session opened for user root(uid=0) by test(uid=1000)
+Sep 10 10:53:02 web systemd-logind[754]: System is rebooting.
+Sep 10 10:53:02 web su[1120]: pam_unix(su-l:session): session closed for user root
+Sep 10 10:53:02 web sshd[1076]: pam_unix(sshd:session): session closed for user test
+Sep 10 10:53:37 web systemd-logind[764]: New seat seat0.
+Sep 10 10:53:37 web systemd-logind[764]: Watching system buttons on /dev/input/event0 (Power Button)
+Sep 10 10:53:37 web systemd-logind[764]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Sep 10 11:12:29 web sshd[1129]: Server listening on :: port 22.
+Sep 10 11:12:38 web sshd[1130]: Accepted password for test from 10.10.10.1 port 64192 ssh2
+Sep 10 11:12:38 web sshd[1130]: pam_unix(sshd:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 11:12:38 web systemd-logind[764]: New session 1 of user test.
+Sep 10 11:12:38 web systemd: pam_unix(systemd-user:session): session opened for user test(uid=1000) by (uid=0)
+Sep 10 11:12:39 web sshd[1130]: pam_env(sshd:session): deprecated reading of user environment enabled
+Sep 10 11:14:05 web su[1174]: (to root) test on pts/0
+Sep 10 11:14:05 web su[1174]: pam_unix(su-l:session): session opened for user root(uid=0) by test(uid=1000)
+Sep 10 11:14:10 web systemd-logind[764]: System is rebooting.
+Sep 10 11:14:10 web su[1174]: pam_unix(su-l:session): session closed for user root
+Sep 10 11:14:10 web sshd[1130]: pam_unix(sshd:session): session closed for user test
+Sep 10 11:15:08 web systemd-logind[753]: New seat seat0.
+Sep 10 11:15:08 web systemd-logind[753]: Watching system buttons on /dev/input/event0 (Power Button)
+Sep 10 11:15:09 web systemd-logind[753]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jan 22 07:50:59 web systemd-logind[798]: New seat seat0.
+Jan 22 07:50:59 web systemd-logind[798]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 22 07:50:59 web systemd-logind[798]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)

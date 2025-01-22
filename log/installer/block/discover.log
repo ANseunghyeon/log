@@ -1,0 +1,168 @@
+2023-07-24 15:21:11,221 curtin:87 Running command ['dpkg', '--print-architecture'] with allowed return codes [0] (capture=True)
+2023-07-24 15:21:11,972 curtin.reporting.start.subiquity/Meta/status_GET:45 start: subiquity/Meta/status_GET: 
+2023-07-24 15:21:11,974 curtin.reporting.finish.subiquity/Meta/status_GET:45 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "CLOUD_INIT_WAIT", "confirming_tty": "", "error": null, "cloud_init...
+2023-07-24 15:21:11,995 curtin.reporting.start.subiquity/Meta/status_GET:45 start: subiquity/Meta/status_GET: 
+2023-07-24 15:21:16,015 curtin:87 Running command ['mount', '-o', 'loop,ro', '///cdrom/casper/ubuntu-server-minimal.squashfs', '/tmp/tmpmdv1wetw/ubuntu-server-minimal.squashfs.dir'] with allowed return codes [0] (capture=True)
+2023-07-24 15:21:16,026 curtin:87 Running command ['mount', '-o', 'loop,ro', '///cdrom/casper/ubuntu-server-minimal.ubuntu-server.squashfs', '/tmp/tmpmdv1wetw/ubuntu-server-minimal.ubuntu-server.squashfs.dir'] with allowed return codes [0] (capture=True)
+2023-07-24 15:21:16,036 curtin:87 Running command ['mount', '-o', 'lowerdir=/tmp/tmpmdv1wetw/ubuntu-server-minimal.ubuntu-server.squashfs.dir:/tmp/tmpmdv1wetw/ubuntu-server-minimal.squashfs.dir', '-t', 'overlay', 'overlay', '/tmp/tmpmdv1wetw/root.dir'] with allowed return codes [0] (capture=True)
+2023-07-24 15:21:16,141 probert.dasd:134 Probing DASD devies
+2023-07-24 15:21:16,142 probert.dasd:137 DASD devices only present on s390x, arch=x86_64
+2023-07-24 15:21:16,602 probert.multipath:48 Extracted multipath maps fields: ['ok']
+2023-07-24 15:21:16,602 probert.multipath:52 Failed to parse multipath maps entry: ok: __new__() missing 2 required positional arguments: 'sysfs' and 'paths'
+2023-07-24 15:21:16,609 probert.multipath:48 Extracted multipath paths fields: ['sda', '', '[orphan]', '[undef]', '[undef]', '[undef]', '[undef]', '[undef]']
+2023-07-24 15:21:16,611 curtin:1303 Extracting storage config from probe data
+2023-07-24 15:21:16,612 curtin:73 /dev/sda is multipath device member? False
+2023-07-24 15:21:16,612 curtin:86 /dev/sda is multipath device partition? False
+2023-07-24 15:21:16,612 curtin:61 /dev/sda is multipath device? False
+2023-07-24 15:21:16,612 curtin:86 /dev/sda is multipath device partition? False
+2023-07-24 15:21:16,612 curtin:61 /dev/sda is multipath device? False
+2023-07-24 15:21:16,628 curtin:73 /dev/sr0 is multipath device member? False
+2023-07-24 15:21:16,628 curtin:86 /dev/sr0 is multipath device partition? False
+2023-07-24 15:21:16,628 curtin:73 /dev/sr0 is multipath device member? False
+2023-07-24 15:21:16,629 curtin:1310 Sorting extracted configurations
+2023-07-24 15:21:16,629 curtin:1329 Validating extracted storage config components
+2023-07-24 15:21:16,645 curtin:1346 Extracted (unmerged) storage config:
+storage:
+-   id: disk-sda
+    path: /dev/sda
+    type: disk
+
+2023-07-24 15:21:16,645 curtin:1350 Generating storage config dependencies
+2023-07-24 15:21:16,646 curtin:1356 Merging storage config dependencies
+2023-07-24 15:21:16,646 curtin:1361 Merged storage config:
+storage:
+    config:
+    -   id: disk-sda
+        path: /dev/sda
+        type: disk
+    version: 2
+
+2023-07-24 15:21:22,783 probert.dasd:134 Probing DASD devies
+2023-07-24 15:21:22,784 probert.dasd:137 DASD devices only present on s390x, arch=x86_64
+2023-07-24 15:21:23,336 probert.multipath:48 Extracted multipath maps fields: ['ok']
+2023-07-24 15:21:23,336 probert.multipath:52 Failed to parse multipath maps entry: ok: __new__() missing 2 required positional arguments: 'sysfs' and 'paths'
+2023-07-24 15:21:23,343 probert.multipath:48 Extracted multipath paths fields: ['sda', '', '[orphan]', '[undef]', '[undef]', '[undef]', '[undef]', '[undef]']
+2023-07-24 15:21:23,345 curtin:1303 Extracting storage config from probe data
+2023-07-24 15:21:23,345 curtin:73 /dev/sda is multipath device member? False
+2023-07-24 15:21:23,345 curtin:86 /dev/sda is multipath device partition? False
+2023-07-24 15:21:23,345 curtin:61 /dev/sda is multipath device? False
+2023-07-24 15:21:23,345 curtin:86 /dev/sda is multipath device partition? False
+2023-07-24 15:21:23,345 curtin:61 /dev/sda is multipath device? False
+2023-07-24 15:21:23,354 curtin:73 /dev/sr0 is multipath device member? False
+2023-07-24 15:21:23,354 curtin:86 /dev/sr0 is multipath device partition? False
+2023-07-24 15:21:23,354 curtin:73 /dev/sr0 is multipath device member? False
+2023-07-24 15:21:23,355 curtin:1310 Sorting extracted configurations
+2023-07-24 15:21:23,355 curtin:1329 Validating extracted storage config components
+2023-07-24 15:21:23,366 curtin:1346 Extracted (unmerged) storage config:
+storage:
+-   id: disk-sda
+    path: /dev/sda
+    type: disk
+
+2023-07-24 15:21:23,366 curtin:1350 Generating storage config dependencies
+2023-07-24 15:21:23,366 curtin:1356 Merging storage config dependencies
+2023-07-24 15:21:23,367 curtin:1361 Merged storage config:
+storage:
+    config:
+    -   id: disk-sda
+        path: /dev/sda
+        type: disk
+    version: 2
+
+2023-07-24 06:22:38,080 curtin:87 Running command ['dpkg', '--print-architecture'] with allowed return codes [0] (capture=True)
+2023-07-24 06:22:39,099 curtin.reporting.start.subiquity/Meta/status_GET:45 start: subiquity/Meta/status_GET: 
+2023-07-24 06:22:39,099 curtin.reporting.finish.subiquity/Meta/status_GET:45 finish: subiquity/Meta/status_GET: SUCCESS: 200 {"state": "CLOUD_INIT_WAIT", "confirming_tty": "", "error": null, "cloud_init...
+2023-07-24 06:22:39,847 probert.dasd:134 Probing DASD devies
+2023-07-24 06:22:39,848 probert.dasd:137 DASD devices only present on s390x, arch=x86_64
+2023-07-24 06:22:39,856 probert.multipath:48 Extracted multipath maps fields: ['ok']
+2023-07-24 06:22:39,856 probert.multipath:52 Failed to parse multipath maps entry: ok: MMap.__new__() missing 2 required positional arguments: 'sysfs' and 'paths'
+2023-07-24 06:22:39,860 probert.multipath:48 Extracted multipath paths fields: ['ok']
+2023-07-24 06:22:39,860 probert.multipath:52 Failed to parse multipath paths entry: ok: MPath.__new__() missing 7 required positional arguments: 'serial', 'multipath', 'host_wwnn', 'target_wwnn', 'host_wwpn', 'target_wwpn', and 'host_adapter'
+2023-07-24 06:22:39,861 curtin:1312 Extracting storage config from probe data
+2023-07-24 06:22:39,861 curtin:73 /dev/sda is multipath device member? False
+2023-07-24 06:22:39,861 curtin:86 /dev/sda is multipath device partition? False
+2023-07-24 06:22:39,861 curtin:61 /dev/sda is multipath device? False
+2023-07-24 06:22:39,861 curtin:86 /dev/sda is multipath device partition? False
+2023-07-24 06:22:39,861 curtin:61 /dev/sda is multipath device? False
+2023-07-24 06:22:39,872 curtin:73 /dev/sr0 is multipath device member? False
+2023-07-24 06:22:39,872 curtin:86 /dev/sr0 is multipath device partition? False
+2023-07-24 06:22:39,872 curtin:73 /dev/sr0 is multipath device member? False
+2023-07-24 06:22:39,872 curtin:1319 Sorting extracted configurations
+2023-07-24 06:22:39,872 curtin:1338 Validating extracted storage config components
+2023-07-24 06:22:39,883 curtin:1355 Extracted (unmerged) storage config:
+storage:
+-   id: disk-sda
+    path: /dev/sda
+    type: disk
+
+2023-07-24 06:22:39,883 curtin:1359 Generating storage config dependencies
+2023-07-24 06:22:39,883 curtin:1365 Merging storage config dependencies
+2023-07-24 06:22:39,883 curtin:1370 Merged storage config:
+storage:
+    config:
+    -   id: disk-sda
+        path: /dev/sda
+        type: disk
+    version: 2
+
+2023-07-24 06:22:58,593 curtin:87 Running command ['mount', '-o', 'loop,ro', '///cdrom/casper/ubuntu-server-minimal.squashfs', '/tmp/tmpyrwu67dn/ubuntu-server-minimal.squashfs.dir'] with allowed return codes [0] (capture=True)
+2023-07-24 06:23:58,950 probert.dasd:134 Probing DASD devies
+2023-07-24 06:23:58,950 probert.dasd:137 DASD devices only present on s390x, arch=x86_64
+2023-07-24 06:23:58,957 probert.multipath:48 Extracted multipath maps fields: ['ok']
+2023-07-24 06:23:58,957 probert.multipath:52 Failed to parse multipath maps entry: ok: MMap.__new__() missing 2 required positional arguments: 'sysfs' and 'paths'
+2023-07-24 06:23:58,960 probert.multipath:48 Extracted multipath paths fields: ['ok']
+2023-07-24 06:23:58,960 probert.multipath:52 Failed to parse multipath paths entry: ok: MPath.__new__() missing 7 required positional arguments: 'serial', 'multipath', 'host_wwnn', 'target_wwnn', 'host_wwpn', 'target_wwpn', and 'host_adapter'
+2023-07-24 06:23:58,961 curtin:1312 Extracting storage config from probe data
+2023-07-24 06:23:58,961 curtin:73 /dev/sda is multipath device member? False
+2023-07-24 06:23:58,961 curtin:86 /dev/sda is multipath device partition? False
+2023-07-24 06:23:58,961 curtin:61 /dev/sda is multipath device? False
+2023-07-24 06:23:58,961 curtin:86 /dev/sda is multipath device partition? False
+2023-07-24 06:23:58,961 curtin:61 /dev/sda is multipath device? False
+2023-07-24 06:23:58,971 curtin:73 /dev/sr0 is multipath device member? False
+2023-07-24 06:23:58,972 curtin:86 /dev/sr0 is multipath device partition? False
+2023-07-24 06:23:58,972 curtin:73 /dev/sr0 is multipath device member? False
+2023-07-24 06:23:58,972 curtin:1319 Sorting extracted configurations
+2023-07-24 06:23:58,972 curtin:1338 Validating extracted storage config components
+2023-07-24 06:23:58,983 curtin:1355 Extracted (unmerged) storage config:
+storage:
+-   id: disk-sda
+    path: /dev/sda
+    type: disk
+
+2023-07-24 06:23:58,983 curtin:1359 Generating storage config dependencies
+2023-07-24 06:23:58,983 curtin:1365 Merging storage config dependencies
+2023-07-24 06:23:58,984 curtin:1370 Merged storage config:
+storage:
+    config:
+    -   id: disk-sda
+        path: /dev/sda
+        type: disk
+    version: 2
+
+2023-07-24 06:24:37,151 curtin:1312 Extracting storage config from probe data
+2023-07-24 06:24:37,151 curtin:73 /dev/sda is multipath device member? False
+2023-07-24 06:24:37,151 curtin:86 /dev/sda is multipath device partition? False
+2023-07-24 06:24:37,151 curtin:61 /dev/sda is multipath device? False
+2023-07-24 06:24:37,151 curtin:86 /dev/sda is multipath device partition? False
+2023-07-24 06:24:37,151 curtin:61 /dev/sda is multipath device? False
+2023-07-24 06:24:37,167 curtin:73 /dev/sr0 is multipath device member? False
+2023-07-24 06:24:37,167 curtin:86 /dev/sr0 is multipath device partition? False
+2023-07-24 06:24:37,167 curtin:73 /dev/sr0 is multipath device member? False
+2023-07-24 06:24:37,167 curtin:1319 Sorting extracted configurations
+2023-07-24 06:24:37,167 curtin:1338 Validating extracted storage config components
+2023-07-24 06:24:37,179 curtin:1355 Extracted (unmerged) storage config:
+storage:
+-   id: disk-sda
+    path: /dev/sda
+    type: disk
+
+2023-07-24 06:24:37,179 curtin:1359 Generating storage config dependencies
+2023-07-24 06:24:37,179 curtin:1365 Merging storage config dependencies
+2023-07-24 06:24:37,180 curtin:1370 Merged storage config:
+storage:
+    config:
+    -   id: disk-sda
+        path: /dev/sda
+        type: disk
+    version: 2
+

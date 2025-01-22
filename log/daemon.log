@@ -1,0 +1,183 @@
+Jan 22 07:51:00 web multipathd[597]: sda: failed to get udev uid: No data available
+Jan 22 07:51:00 web multipathd[597]: sda: failed to get path uid
+Jan 22 07:51:00 web multipathd[597]: uevent trigger error
+Jan 22 07:51:00 web systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 788 (rsyslogd) on client request.
+Jan 22 07:51:00 web systemd[1]: logrotate.service: Deactivated successfully.
+Jan 22 07:51:00 web systemd[1]: Finished Rotate log files.
+Jan 22 07:51:00 web snapd[795]: overlord.go:268: Acquiring state lock file
+Jan 22 07:51:00 web snapd[795]: overlord.go:273: Acquired state lock file
+Jan 22 07:51:00 web snapd[795]: daemon.go:247: started snapd/2.58+22.10.1 (series 16; classic) ubuntu/22.10 (amd64) linux/5.19.0-46-generic.
+Jan 22 07:51:00 web systemd[1]: tmp-syscheck\x2dmountpoint\x2d1837861394.mount: Deactivated successfully.
+Jan 22 07:51:00 web snapd[795]: daemon.go:340: adjusting startup timeout by 30s (pessimistic estimate of 30s plus 5s per snap)
+Jan 22 07:51:00 web snapd[795]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+Jan 22 07:51:00 web systemd[1]: Started Snap Daemon.
+Jan 22 07:51:00 web systemd[1]: Starting Wait until snapd is fully seeded...
+Jan 22 07:51:00 web dbus-daemon[743]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.4' (uid=0 pid=795 comm="/usr/lib/snapd/snapd" label="unconfined")
+Jan 22 07:51:00 web systemd[1]: Starting Time & Date Service...
+Jan 22 07:51:01 web dbus-daemon[743]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Jan 22 07:51:01 web systemd[1]: Started Time & Date Service.
+Jan 22 07:51:01 web systemd[1]: Finished Wait until snapd is fully seeded.
+Jan 22 07:51:01 web systemd[1]: Auto import assertions from block devices was skipped because all trigger condition checks failed.
+Jan 22 07:51:01 web systemd[1]: phpsessionclean.service: Deactivated successfully.
+Jan 22 07:51:01 web systemd[1]: Finished Clean php session files.
+Jan 22 07:51:02 web systemd[1]: Reached target Sound Card.
+Jan 22 07:51:02 web systemd-networkd[893]: lo: Link UP
+Jan 22 07:51:02 web systemd-networkd[893]: lo: Gained carrier
+Jan 22 07:51:02 web systemd-networkd[893]: Enumeration completed
+Jan 22 07:51:02 web systemd[1]: Started Network Configuration.
+Jan 22 07:51:02 web systemd-networkd[893]: ens33: Configuring with /run/systemd/network/10-netplan-ens33.network.
+Jan 22 07:51:02 web systemd[1]: Reached target Network.
+Jan 22 07:51:02 web systemd[1]: Starting MySQL Community Server...
+Jan 22 07:51:02 web systemd[1]: Starting Wait for Network to be Configured...
+Jan 22 07:51:02 web systemd[1]: Started Unattended Upgrades Shutdown.
+Jan 22 07:51:02 web systemd[1]: Starting vsftpd FTP server...
+Jan 22 07:51:02 web systemd[1]: Started vsftpd FTP server.
+Jan 22 07:51:02 web systemd-networkd[893]: ens33: Link UP
+Jan 22 07:51:02 web systemd-networkd[893]: ens33: Gained carrier
+Jan 22 07:51:04 web systemd[1]: Started MySQL Community Server.
+Jan 22 07:51:04 web systemd-networkd[893]: ens33: Gained IPv6LL
+Jan 22 07:51:09 web multipathd[597]: sda: triggering change event to reinitialize
+Jan 22 07:51:09 web multipath: sda: failed to get sysfs uid: Invalid argument
+Jan 22 07:51:09 web multipath: sda: failed to get sgio uid: No such file or directory
+Jan 22 07:51:09 web multipathd[597]: sda: failed to get udev uid: No data available
+Jan 22 07:51:09 web multipathd[597]: sda: failed to get path uid
+Jan 22 07:51:09 web multipathd[597]: uevent trigger error
+Jan 22 07:51:15 web snapd[795]: daemon.go:521: gracefully waiting for running hooks
+Jan 22 07:51:15 web snapd[795]: daemon.go:523: done waiting for running hooks
+Jan 22 07:51:15 web snapd[795]: overlord.go:512: Released state lock file
+Jan 22 07:51:15 web snapd[795]: daemon stop requested to wait for socket activation
+Jan 22 07:51:15 web systemd[1]: snapd.service: Deactivated successfully.
+Jan 22 07:51:16 web systemd-networkd-wait-online[993]: managing: ens33
+Jan 22 07:51:16 web systemd[1]: Finished Wait for Network to be Configured.
+Jan 22 07:51:16 web systemd[1]: Reached target Network is Online.
+Jan 22 07:51:16 web systemd[1]: Login to default iSCSI targets was skipped because all trigger condition checks failed.
+Jan 22 07:51:16 web systemd[1]: Reached target Preparation for Remote File Systems.
+Jan 22 07:51:16 web systemd[1]: Reached target Remote File Systems.
+Jan 22 07:51:16 web systemd[1]: Starting The Apache HTTP Server...
+Jan 22 07:51:16 web systemd[1]: Starting LSB: automatic crash report generation...
+Jan 22 07:51:16 web systemd[1]: Finished Availability of block devices.
+Jan 22 07:51:16 web systemd[1]: Pollinate to seed the pseudo random number generator was skipped because of a failed condition check (ConditionPathExists=!/var/cache/pollinate/seeded).
+Jan 22 07:51:16 web systemd[1]: Starting OpenBSD Secure Shell server...
+Jan 22 07:51:16 web systemd[1]: Starting Permit User Sessions...
+Jan 22 07:51:16 web systemd[1]: Finished Permit User Sessions.
+Jan 22 07:51:16 web systemd[1]: Starting Hold until boot process finishes up...
+Jan 22 07:51:16 web systemd[1]: Starting Terminate Plymouth Boot Screen...
+Jan 22 07:51:16 web systemd[1]: Finished Hold until boot process finishes up.
+Jan 22 07:51:16 web systemd[1]: Starting Set console scheme...
+Jan 22 07:51:16 web systemd[1]: Finished Set console scheme.
+Jan 22 07:51:16 web systemd[1]: Created slice Slice /system/getty.
+Jan 22 07:51:16 web systemd[1]: Started Getty on tty1.
+Jan 22 07:51:16 web systemd[1]: Reached target Login Prompts.
+Jan 22 07:51:16 web systemd[1]: Finished Terminate Plymouth Boot Screen.
+Jan 22 07:51:16 web systemd[1]: dmesg.service: Deactivated successfully.
+Jan 22 07:51:16 web apport[1085]:  * Starting automatic crash report generation: apport
+Jan 22 07:51:16 web apport[1085]:    ...done.
+Jan 22 07:51:16 web systemd[1]: Started LSB: automatic crash report generation.
+Jan 22 07:51:16 web systemd[1]: Started OpenBSD Secure Shell server.
+Jan 22 07:51:16 web apachectl[1110]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Jan 22 07:51:16 web systemd[1]: Started The Apache HTTP Server.
+Jan 22 07:51:16 web systemd[1]: Reached target Multi-User System.
+Jan 22 07:51:16 web systemd[1]: Reached target Graphical Interface.
+Jan 22 07:51:16 web systemd[1]: Starting Record Runlevel Change in UTMP...
+Jan 22 07:51:16 web systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+Jan 22 07:51:16 web systemd[1]: Finished Record Runlevel Change in UTMP.
+Jan 22 07:51:16 web systemd[1]: Startup finished in 5.356s (kernel) + 19.237s (userspace) = 24.593s.
+Jan 22 07:51:16 web systemd-resolved[640]: Clock change detected. Flushing caches.
+Jan 22 07:51:19 web multipathd[597]: sda: triggering change event to reinitialize
+Jan 22 07:51:19 web multipath: sda: failed to get sysfs uid: Invalid argument
+Jan 22 07:51:19 web multipath: sda: failed to get sgio uid: No such file or directory
+Jan 22 07:51:19 web multipathd[597]: sda: failed to get udev uid: No data available
+Jan 22 07:51:19 web multipathd[597]: sda: failed to get path uid
+Jan 22 07:51:19 web multipathd[597]: uevent trigger error
+Jan 22 07:51:29 web multipathd[597]: sda: triggering change event to reinitialize
+Jan 22 07:51:29 web multipath: sda: failed to get sysfs uid: Invalid argument
+Jan 22 07:51:29 web multipath: sda: failed to get sgio uid: No such file or directory
+Jan 22 07:51:29 web multipathd[597]: sda: failed to get sysfs uid: Invalid argument
+Jan 22 07:51:29 web multipathd[597]: sda: failed to get sgio uid: No such file or directory
+Jan 22 07:51:29 web multipathd[597]: sda: failed to get path uid
+Jan 22 07:51:29 web multipathd[597]: uevent trigger error
+Jan 22 07:51:30 web systemd[1]: systemd-timedated.service: Deactivated successfully.
+Jan 22 07:51:39 web multipathd[597]: sda: not initialized after 3 udev retriggers
+Jan 22 07:51:40 web multipathd[597]: sda: add missing path
+Jan 22 07:51:40 web multipathd[597]: sda: failed to get sysfs uid: Invalid argument
+Jan 22 07:51:40 web multipathd[597]: sda: failed to get sgio uid: No such file or directory
+Jan 22 07:51:40 web multipathd[597]: sda: no WWID in state "undef
+Jan 22 07:51:40 web multipathd[597]: ", giving up
+Jan 22 07:51:40 web multipathd[597]: sda: check_path() failed, removing
+Jan 22 07:52:03 web systemd[1]: Starting Online ext4 Metadata Check for All Filesystems...
+Jan 22 07:52:03 web systemd[1]: e2scrub_all.service: Deactivated successfully.
+Jan 22 07:52:03 web systemd[1]: Finished Online ext4 Metadata Check for All Filesystems.
+Jan 22 07:52:04 web systemd[1]: Created slice User Slice of UID 1000.
+Jan 22 07:52:04 web systemd[1]: Starting User Runtime Directory /run/user/1000...
+Jan 22 07:52:04 web systemd[1]: Finished User Runtime Directory /run/user/1000.
+Jan 22 07:52:04 web systemd[1]: Starting User Manager for UID 1000...
+Jan 22 07:52:04 web systemd[1156]: Queued start job for default target Main User Target.
+Jan 22 07:52:04 web systemd[1156]: Created slice User Application Slice.
+Jan 22 07:52:04 web systemd[1156]: Reached target Paths.
+Jan 22 07:52:04 web systemd[1156]: Reached target Timers.
+Jan 22 07:52:04 web systemd[1156]: Starting D-Bus User Message Bus Socket...
+Jan 22 07:52:04 web systemd[1156]: Listening on GnuPG network certificate management daemon.
+Jan 22 07:52:04 web systemd[1156]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 22 07:52:04 web systemd[1156]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 22 07:52:04 web systemd[1156]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 22 07:52:04 web systemd[1156]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 22 07:52:04 web systemd[1156]: Listening on debconf communication socket.
+Jan 22 07:52:04 web systemd[1156]: Listening on REST API socket for snapd user session agent.
+Jan 22 07:52:04 web systemd[1156]: Listening on D-Bus User Message Bus Socket.
+Jan 22 07:52:04 web systemd[1156]: Reached target Sockets.
+Jan 22 07:52:04 web systemd[1156]: Reached target Basic System.
+Jan 22 07:52:04 web systemd[1156]: Reached target Main User Target.
+Jan 22 07:52:04 web systemd[1156]: Startup finished in 99ms.
+Jan 22 07:52:04 web systemd[1]: Started User Manager for UID 1000.
+Jan 22 07:52:04 web systemd[1]: Started Session 1 of User test.
+Jan 22 07:52:42 web systemd[1]: session-1.scope: Deactivated successfully.
+Jan 22 07:52:52 web systemd[1]: Stopping User Manager for UID 1000...
+Jan 22 07:52:52 web systemd[1156]: Activating special unit Exit the Session...
+Jan 22 07:52:52 web systemd[1156]: Stopped target Main User Target.
+Jan 22 07:52:52 web systemd[1156]: Stopped target Basic System.
+Jan 22 07:52:52 web systemd[1156]: Stopped target Paths.
+Jan 22 07:52:52 web systemd[1156]: Stopped target Sockets.
+Jan 22 07:52:52 web systemd[1156]: Stopped target Timers.
+Jan 22 07:52:52 web systemd[1156]: Closed D-Bus User Message Bus Socket.
+Jan 22 07:52:52 web systemd[1156]: Closed GnuPG network certificate management daemon.
+Jan 22 07:52:52 web systemd[1156]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 22 07:52:52 web systemd[1156]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 22 07:52:52 web systemd[1156]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Jan 22 07:52:52 web systemd[1156]: Closed GnuPG cryptographic agent and passphrase cache.
+Jan 22 07:52:52 web systemd[1156]: Closed debconf communication socket.
+Jan 22 07:52:52 web systemd[1156]: Closed REST API socket for snapd user session agent.
+Jan 22 07:52:52 web systemd[1156]: Removed slice User Application Slice.
+Jan 22 07:52:52 web systemd[1156]: Reached target Shutdown.
+Jan 22 07:52:52 web systemd[1156]: Finished Exit the Session.
+Jan 22 07:52:52 web systemd[1156]: Reached target Exit the Session.
+Jan 22 07:52:52 web systemd[1]: user@1000.service: Deactivated successfully.
+Jan 22 07:52:52 web systemd[1]: Stopped User Manager for UID 1000.
+Jan 22 07:52:52 web systemd[1]: Stopping User Runtime Directory /run/user/1000...
+Jan 22 07:52:52 web systemd[1]: run-user-1000.mount: Deactivated successfully.
+Jan 22 07:52:52 web systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+Jan 22 07:52:52 web systemd[1]: Stopped User Runtime Directory /run/user/1000.
+Jan 22 07:52:52 web systemd[1]: Removed slice User Slice of UID 1000.
+Jan 22 07:53:42 web systemd[1]: Created slice User Slice of UID 1000.
+Jan 22 07:53:42 web systemd[1]: Starting User Runtime Directory /run/user/1000...
+Jan 22 07:53:42 web systemd[1]: Finished User Runtime Directory /run/user/1000.
+Jan 22 07:53:42 web systemd[1]: Starting User Manager for UID 1000...
+Jan 22 07:53:42 web systemd[1200]: Queued start job for default target Main User Target.
+Jan 22 07:53:42 web systemd[1200]: Created slice User Application Slice.
+Jan 22 07:53:42 web systemd[1200]: Reached target Paths.
+Jan 22 07:53:42 web systemd[1200]: Reached target Timers.
+Jan 22 07:53:42 web systemd[1200]: Starting D-Bus User Message Bus Socket...
+Jan 22 07:53:42 web systemd[1200]: Listening on GnuPG network certificate management daemon.
+Jan 22 07:53:42 web systemd[1200]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 22 07:53:42 web systemd[1200]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 22 07:53:42 web systemd[1200]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 22 07:53:42 web systemd[1200]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 22 07:53:42 web systemd[1200]: Listening on debconf communication socket.
+Jan 22 07:53:42 web systemd[1200]: Listening on REST API socket for snapd user session agent.
+Jan 22 07:53:42 web systemd[1200]: Listening on D-Bus User Message Bus Socket.
+Jan 22 07:53:42 web systemd[1200]: Reached target Sockets.
+Jan 22 07:53:42 web systemd[1200]: Reached target Basic System.
+Jan 22 07:53:42 web systemd[1200]: Reached target Main User Target.
+Jan 22 07:53:42 web systemd[1200]: Startup finished in 40ms.
+Jan 22 07:53:42 web systemd[1]: Started User Manager for UID 1000.
+Jan 22 07:53:42 web systemd[1]: Started Session 3 of User test.
+Jan 22 07:55:00 web systemd[1]: Started Session 5 of User test.
